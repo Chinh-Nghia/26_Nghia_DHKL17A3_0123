@@ -16,7 +16,7 @@ class XMLReader:
                 quantity = product.find('quantity').text
                 print(f"Product: {name}, Price: {price}, Quantity: {quantity}")
 # Sử dụng lớp XMLReader
-path = r'F:\Lập trình Pyhton nâng cao\thực hành\lab1\DATA_lab1_XML_JSON\products.xml'
+path = r'F:\Lập trình Pyhton nâng cao\26_Nghia_DHKL17A3HN_0123\thuc hanh\lab1\DATA_lab1_XML_JSON\products.xml'
 reader = XMLReader(path)
 reader.read_xml()
 reader.display_data()

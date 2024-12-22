@@ -13,7 +13,7 @@ class JSONReader:
                 for user in self.data:
                     print(f"Name: {user['name']}, Age: {user['age']}, \Address: {user['address']}")
 
-path = r'F:\Lập trình Pyhton nâng cao\thực hành\lab1\DATA_lab1_XML_JSON\users.json'
+path = r'F:\Lập trình Pyhton nâng cao\26_Nghia_DHKL17A3HN_0123\thuc hanh\lab1\DATA_lab1_XML_JSON\users.json'
 reader = JSONReader(path)
 reader.read_json()
 reader.display_data()
