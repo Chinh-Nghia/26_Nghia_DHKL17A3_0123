@@ -1,4 +1,3 @@
-#Hồ Thị Minh Hằng
 def main():
     #Sử dụng hàm parse() để đọc và phân tích file "sample.xml sau đó chuyển đổi nó thành biến đối tượng 'doc'.
     doc=xml.dom.minidom.parse("sample.xml");
