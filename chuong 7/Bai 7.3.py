@@ -8,7 +8,7 @@ def change_font():
     lbl.configure(font=("Arial", 50, new_weight))
 
 window = Tk()
-window.title("Welcome to DHKL16A2HN")
+window.title("Welcome to DHKL17A3HN")
 
 lbl = Label(window, text="Hello", font=("Arial", 50, "bold"))
 lbl.grid(column=0, row=0)
