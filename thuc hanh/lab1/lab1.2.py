@@ -1,3 +1,5 @@
+"""Viết một script Python để mở và đọc tập tin JSON. 
+ Sử dụng thư viện json có sẵn trong Python. """
 import json
 class JSONReader:
     def __init__(self, file_path):

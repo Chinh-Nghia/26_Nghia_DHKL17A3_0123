@@ -1,3 +1,7 @@
+"""a. Sử dụng thư viện xml.etree.ElementTree trong Python để đọc và phân tích tập tin 
+XML. 
+b. Trích xuất và hiển thị thông tin sản phẩm. 
+"""
 import xml.etree.ElementTree as ET
 class XMLReader:
     def __init__(self, file_path):
